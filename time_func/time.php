@@ -1,4 +1,4 @@
-  //指定日期後幾天
+    //指定日期後幾天
     function addDay($date,$days){
         $date = strtotime("+".$days." days", strtotime($date));
         return  date("Y-m-d", $date);
